@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyscrapers", "Skyscrapers\Skyscrapers.csproj", "{33432759-9F7C-4F45-99F0-A738A9E7B728}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyScrapers.Console", "SkyScrapers.Console\SkyScrapers.Console.csproj", "{C6119705-79E3-4E6B-A206-DC25CBE322F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{33432759-9F7C-4F45-99F0-A738A9E7B728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33432759-9F7C-4F45-99F0-A738A9E7B728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33432759-9F7C-4F45-99F0-A738A9E7B728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6119705-79E3-4E6B-A206-DC25CBE322F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6119705-79E3-4E6B-A206-DC25CBE322F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6119705-79E3-4E6B-A206-DC25CBE322F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6119705-79E3-4E6B-A206-DC25CBE322F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

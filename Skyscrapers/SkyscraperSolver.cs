@@ -1,7 +1,10 @@
-﻿namespace Skyscrapers;
+﻿using System.Collections;
 
-public class SkyscraperProgram
+namespace Skyscrapers;
+
+public class SkyscraperSolver
 {
+    
     public static int[][] SolvePuzzle(int[] clues)
     {
         if (clues.Length % 4 != 0)
@@ -17,10 +20,18 @@ public class SkyscraperProgram
         }
 
         var field = new byte[fieldSize][];
+
+        foreach (var row in field)
+        {
+            for (var x = 0; x < field.Length; x++)
+            {
+                row[x] = 0;
+            }
+            row[0] = 1;
+        }
         
         
-        
-        // Start your coding here...
+
         return Array.Empty<int[]>();
     }
 }
